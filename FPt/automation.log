@@ -1,0 +1,45 @@
+2025-06-25 11:41:22,101 - INFO - root - --- BẮT ĐẦU QUY TRÌNH TỰ ĐỘNG ---
+2025-06-25 11:41:22,103 - INFO - root - Đang tải và xử lý hóa đơn...
+2025-06-25 11:41:25,744 - INFO - read - Đã đọc 9 dòng từ file Excel 'input.xlsx'.
+2025-06-25 11:41:38,904 - INFO - read - Đã yêu cầu tải hóa đơn FPT cho MST: 0304244470
+2025-06-25 11:41:42,905 - INFO - read - Đang xử lý file: 0304244470r08e17y79g.xml
+2025-06-25 11:41:42,926 - INFO - read - Parsed XML file '0304244470r08e17y79g.xml' thành công.
+2025-06-25 11:41:42,927 - INFO - read - Dữ liệu trích xuất: {'Số hóa đơn': '1', 'Đơn vị bán hàng': 'CÔNG TY CỔ PHẦN BA HUÂN', 'Mã số thuế bán': '0304244470', 'Địa chỉ bán': '22 Nguyễn Đình Chi, Phường 09, Quận 6, Thành phố Hồ Chí Minh, Việt Nam', 'Số tài khoản bán': '', 'Họ tên người mua hàng': 'Liên Hiệp Hợp Tác Xã Thương Mại TP. Hồ Chí Minh', 'Địa chỉ mua': '199-205 Nguyễn Thái Học, Phường Phạm Ngũ Lão, Quận 1, Thành phố Hồ Chí Minh, Việt Nam', 'Mã số thuế mua': '0301175691', 'Tên file XML': '0304244470r08e17y79g.xml'}
+2025-06-25 11:41:44,332 - WARNING - read - FPT: MST không hợp lệ: 0304244471, bỏ qua.
+2025-06-25 11:41:56,144 - INFO - read - Đã yêu cầu tải hóa đơn FPT cho MST: 0304308445
+2025-06-25 11:42:00,145 - INFO - read - Đang xử lý file: 0304308445rzmwy1yo4g.xml
+2025-06-25 11:42:00,167 - INFO - read - Parsed XML file '0304308445rzmwy1yo4g.xml' thành công.
+2025-06-25 11:42:00,168 - INFO - read - Dữ liệu trích xuất: {'Số hóa đơn': '1', 'Đơn vị bán hàng': 'CÔNG TY CỔ PHẦN PHÚ TRƯỜNG QUỐC TẾ', 'Mã số thuế bán': '0304308445', 'Địa chỉ bán': '15A1 Đường Nguyễn Hữu Thọ, Xã Phước Kiển, Huyện Nhà Bè, Thành phố Hồ Chí Minh, Việt Nam', 'Số tài khoản bán': '0181003527080', 'Họ tên người mua hàng': 'Liên Hiệp Hợp Tác Xã Thương Mại TP.HCM', 'Địa chỉ mua': '199-205 Nguyễn Thái Học, Phường Phạm Ngũ Lão, Quận 01, Thành Phố Hồ Chí Minh', 'Mã số thuế mua': '0301175691', 'Tên file XML': '0304308445rzmwy1yo4g.xml'}
+2025-06-25 11:42:13,257 - INFO - read - MeInvoice: Tìm thấy hóa đơn cho mã tra cứu: B1HEIRR8N0WP. Bắt đầu tải.
+2025-06-25 11:42:13,360 - INFO - read - Đã nhấp vào nút tải xuống MeInvoice
+2025-06-25 11:42:14,028 - INFO - read - Đã yêu cầu tải file XML từ MeInvoice cho Mã Tra Cứu: B1HEIRR8N0WP
+2025-06-25 11:42:18,029 - INFO - read - Đang xử lý file: 1C25TTV_00002426_0401281414.xml
+2025-06-25 11:42:18,046 - INFO - read - Parsed XML file '1C25TTV_00002426_0401281414.xml' thành công.
+2025-06-25 11:42:18,047 - INFO - read - Dữ liệu trích xuất: {'Số hóa đơn': '1', 'Đơn vị bán hàng': 'CÔNG TY TNHH CHĂN NUÔI TAFA VIỆT', 'Mã số thuế bán': '3401142134', 'Địa chỉ bán': 'Thôn 1, Xã Trà Tân, Huyện Đức Linh, Tỉnh Bình Thuận, Việt Nam', 'Số tài khoản bán': '5400 201 010 928', 'Họ tên người mua hàng': 'CÔNG TY TNHH MỘT THÀNH VIÊN TMDV SIÊU THỊ CO.OPMART ĐÀ NẴNG', 'Địa chỉ mua': '478 Điện Biên Phủ, Phường Thanh Khê Đông, Quận Thanh Khê, Thành phố Đà Nẵng, Việt Nam', 'Mã số thuế mua': '0401281414', 'Tên file XML': '1C25TTV_00002426_0401281414.xml'}
+2025-06-25 11:42:30,378 - INFO - read - MeInvoice: Tìm thấy hóa đơn cho mã tra cứu: PZH_FWQ4BN3. Bắt đầu tải.
+2025-06-25 11:42:40,792 - WARNING - read - MeInvoice: Không tìm thấy thành phần cần thiết cho PZH_FWQ4BN3
+2025-06-25 11:42:52,673 - INFO - read - MeInvoice: Tìm thấy hóa đơn cho mã tra cứu: VBHKSL682918. Bắt đầu tải.
+2025-06-25 11:42:52,770 - INFO - read - Đã nhấp vào nút tải xuống MeInvoice
+2025-06-25 11:42:53,435 - INFO - read - Đã yêu cầu tải file XML từ MeInvoice cho Mã Tra Cứu: VBHKSL682918
+2025-06-25 11:42:57,436 - INFO - read - Đang xử lý file: 1C25THA_00000094_0301175691-036.xml
+2025-06-25 11:42:57,451 - INFO - read - Parsed XML file '1C25THA_00000094_0301175691-036.xml' thành công.
+2025-06-25 11:42:57,451 - INFO - read - Dữ liệu trích xuất: {'Số hóa đơn': '1', 'Đơn vị bán hàng': 'CÔNG TY TNHH ĐẦU TƯ - SẢN XUẤT VÀ THƯƠNG MẠI HOÀNG BÁCH', 'Mã số thuế bán': '0318580994', 'Địa chỉ bán': 'C9/16A31 Bùi Thanh Khiết, khu phố 3, Thị Trấn Tân Túc, Huyện Bình Chánh, Thành phố Hồ Chí Minh, Việt Nam', 'Số tài khoản bán': '110605110688', 'Họ tên người mua hàng': 'CHI NHÁNH LIÊN HIỆP HỢP TÁC XÃ THƯƠNG MẠI TP.HỒ CHÍ MINH - CO.OPMART CHU VĂN AN', 'Địa chỉ mua': 'Tầng 1-Tầng 2 Khối A&B Cao ốc Đất Phương Nam 241A Chu Văn An, Phường 12, Quận Bình Thạnh, TP Hồ Chí Minh', 'Mã số thuế mua': '0301175691-036', 'Tên file XML': '1C25THA_00000094_0301175691-036.xml'}
+2025-06-25 11:43:02,746 - INFO - read - Đã chuyển vào iframe
+2025-06-25 11:43:03,074 - INFO - read - Đã click nút tải
+2025-06-25 11:43:03,275 - INFO - read - Đã click tải XML
+2025-06-25 11:43:07,276 - INFO - read - Đang xử lý file: C25TKP-00004221-NII30XVQWNC-DPH.xml
+2025-06-25 11:43:07,298 - INFO - read - Parsed XML file 'C25TKP-00004221-NII30XVQWNC-DPH.xml' thành công.
+2025-06-25 11:43:07,299 - INFO - read - Dữ liệu trích xuất: {'Số hóa đơn': '1', 'Đơn vị bán hàng': 'CÔNG TY TNHH SẢN XUẤT THƯƠNG MẠI DỊCH VỤ NAM KHẢI PHÚ', 'Mã số thuế bán': '0312563329', 'Địa chỉ bán': '81 Cách Mạng Tháng Tám, Phường Bến Thành, Quận 1, Hồ Chí Minh', 'Số tài khoản bán': '', 'Họ tên người mua hàng': 'Chi Nhánh Liên Hiệp Hợp Tác Xã Thương Mại TP.Hồ Chí Minh - Co.opMart Cái Bè', 'Địa chỉ mua': 'Khu 2, Thị trấn Cái Bè, Huyện Cái Bè, Tỉnh Tiền Giang', 'Mã số thuế mua': '0301175691-068', 'Tên file XML': 'C25TKP-00004221-NII30XVQWNC-DPH.xml'}
+2025-06-25 11:43:20,245 - WARNING - read - HoaDon: Timeout khi xử lý MHPLO8W6EMD
+2025-06-25 11:43:22,824 - INFO - read - Đã chuyển vào iframe
+2025-06-25 11:43:23,134 - INFO - read - Đã click nút tải
+2025-06-25 11:43:23,379 - INFO - read - Đã click tải XML
+2025-06-25 11:43:27,380 - INFO - read - Đang xử lý file: C25TKP-00004288-MIJ634K9JAD-DPH.xml
+2025-06-25 11:43:27,400 - INFO - read - Parsed XML file 'C25TKP-00004288-MIJ634K9JAD-DPH.xml' thành công.
+2025-06-25 11:43:27,400 - INFO - read - Dữ liệu trích xuất: {'Số hóa đơn': '1', 'Đơn vị bán hàng': 'CÔNG TY TNHH SẢN XUẤT THƯƠNG MẠI DỊCH VỤ NAM KHẢI PHÚ', 'Mã số thuế bán': '0312563329', 'Địa chỉ bán': '81 Cách Mạng Tháng Tám, Phường Bến Thành, Quận 1, Hồ Chí Minh', 'Số tài khoản bán': '', 'Họ tên người mua hàng': 'Chi Nhánh Liên Hiệp Hợp Tác Xã Thương Mại TP.Hồ Chí Minh - Co.opMart Cái Bè', 'Địa chỉ mua': 'Khu 2, Thị trấn Cái Bè, Huyện Cái Bè, Tỉnh Tiền Giang', 'Mã số thuế mua': '0301175691-068', 'Tên file XML': 'C25TKP-00004288-MIJ634K9JAD-DPH.xml'}
+2025-06-25 11:43:27,401 - INFO - read - Hoàn tất tất cả tác vụ tải về. Đóng trình duyệt.
+2025-06-25 11:43:31,628 - INFO - read - Kết hợp dữ liệu từ Excel và XML...
+2025-06-25 11:43:31,704 - INFO - read - Thành công! Dữ liệu đã được kết hợp và lưu vào file: D:\DATA\Truong\Bt_Python\Baitap2_Pandas\FPt\output.xlsx
+2025-06-25 11:43:31,705 - INFO - root - Tải và xử lý hóa đơn hoàn tất.
+2025-06-25 11:43:31,705 - INFO - root - --- QUY TRÌNH HOÀN TẤT THÀNH CÔNG ---
+2025-06-25 11:43:31,705 - INFO - root - File kết quả đã được lưu tại: D:\DATA\Truong\Bt_Python\Baitap2_Pandas\FPt\output.xlsx
