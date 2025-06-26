@@ -63,8 +63,7 @@ def parse_invoice_xml(xml_file_path):
             'Số tài khoản bán': stknhang or '',
             'Họ tên người mua hàng': find_text(dlhdon, 'NDHDon/NMua/Ten') or '',
             'Địa chỉ mua': find_text(dlhdon, 'NDHDon/NMua/DChi') or '',
-            'Mã số thuế mua': find_text(dlhdon, 'NDHDon/NMua/MST') or '',
-            'Tên file XML': file_name
+            'Mã số thuế mua': find_text(dlhdon, 'NDHDon/NMua/MST') or ''
         }
 
         logger.info(f"Parsed XML file '{file_name}' thành công.")
