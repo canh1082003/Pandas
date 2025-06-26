@@ -10,10 +10,11 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 import os
 import logging
+from chrome_config import create_chrome_driver
 
 logger = logging.getLogger(__name__)
+driver = create_chrome_driver()
 
-#Lấy dữ liệu từ file XML
 def parse_invoice_xml(xml_file_path): 
     try:
         tree = ET.parse(xml_file_path)
@@ -166,15 +167,7 @@ def readExecl(input_file: str, download_dir: str, output_file: str):
     if not os.path.exists(download_dir):
         os.makedirs(download_dir)
 
-    chrome_options = Options()
-    chrome_options.add_experimental_option('prefs', {
-        'download.default_directory': download_dir,
-        'download.prompt_for_download': False,
-        'download.directory_upgrade': True,
-        'safebrowsing.enabled': True
-    })
-    driver = webdriver.Chrome(options=chrome_options)
-    
+
     extracted_data = []
     
     try:
